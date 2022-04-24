@@ -65,7 +65,6 @@ for Y in YEAR:
                         print("Error {} {} : {}".format(Y, m, err))
                         break
 
-            # 19개 권역 자료 병합 #
             st_df = pd.concat([st_df, matrix_df], axis=0)
 
         print("Year : {} // Month : {}".format(Y, m))
