@@ -54,7 +54,6 @@ for Y in YEAR:
             # Calculate total sum #
             total_sum = matrix_df['SUM'].sum()
 
-            # 총 합이 100이 되게 환산 #
             for col in matrix_df.columns:
                 if col == 'Station':
                     pass
